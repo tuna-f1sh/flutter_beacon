@@ -18,7 +18,8 @@ rootProject.allprojects {
 }
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
+    namespace "com.flutterbeacon"
 
     defaultConfig {
         minSdkVersion 18
